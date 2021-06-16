@@ -10,7 +10,7 @@ function trkpt(coord: number[]): string {
   if (coord.length === 4) {
     time = `<time>${new Date(coord[3] * 1000).toISOString()}</time>`;
   }
-  return `<trkpt lat="${lat}" lon="${lng}>${ele}${time}</trkpt>`;
+  return `<trkpt lat="${lat}" lon="${lng}">${ele}${time}</trkpt>`;
 }
 
 function trkseg(geom: number[][]): string {
