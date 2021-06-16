@@ -1,0 +1,40 @@
+{
+  "name": "extract-db-outings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --check \"**/*.{ts,js,json,css,scss,less,md,html}\" && eslint src/**",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunobesson/extract-db-outings.git"
+  },
+  "author": "Camptocamp Association",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunobesson/extract-db-outings/issues"
+  },
+  "homepage": "https://github.com/brunobesson/extract-db-outings#readme",
+  "dependencies": {
+    "@types/proj4": "2.5.0",
+    "proj4": "2.7.2"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.1",
+    "@types/node": "15.12.2",
+    "@types/ol": "6.5.1",
+    "@typescript-eslint/eslint-plugin": "4.27.0",
+    "@typescript-eslint/parser": "4.27.0",
+    "eslint": "7.28.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "husky": "6.0.0",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.1",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2"
+  }
+}
